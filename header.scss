@@ -1,0 +1,31 @@
+.header {
+    padding: 35px 20px 25px 20px;
+
+    .hidden {
+        opacity: 0;
+        transition: all 2s;
+    }
+
+    .show {
+        opacity: 1;
+    }
+
+    .headerNav {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+
+        .headerNav__navigation {
+            padding: 10px 10px;
+
+            .navigation__link {
+                text-decoration: none;
+                background: none
+            }
+
+            .navigation__link:first-child {
+                margin-right: 10px;
+            }
+        }
+    }
+}

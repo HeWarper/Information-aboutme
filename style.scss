@@ -1,0 +1,19 @@
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "var.scss";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: $textcolor;
+}
+
+.body {
+    min-height: 800px;
+
+    .bodyDiv {
+        min-height: 911px;
+        background-image: linear-gradient(to bottom right, #3b0057, #7b0080);
+    }
+}
